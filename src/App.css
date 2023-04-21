@@ -1,0 +1,56 @@
+.container{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.container h1{
+  text-align:center;
+  display:flex;
+  
+}
+.inbox{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  border: 2px solid green;
+  border-radius:30px;
+  margin:30px;
+  padding:30px;
+  background:gray;
+
+}
+.inbox-plus{
+  margin:20px;
+  width:45px;
+  height:45px;
+  border-radius:30%;
+  outline:none;
+  border:none;
+  cursor:pointer;
+  font-size:30px;
+  font-weight:700;
+}
+.inbox-minus{
+  margin:20px;
+  width:45px;
+  height:45px;
+  border-radius:30%;
+  outline:none;
+  border:none;
+  cursor:pointer;
+  font-size:30px;
+  font-weight:700;
+}
+.inbox-text{
+  width:175px;
+  height:45px;
+  outline:none;
+  resize:none;
+  border-radius:30px;
+  text-align:center;
+  display:flex;
+  justify-content:center;
+  font-size:30px;
+  font-weight:700;
+}
